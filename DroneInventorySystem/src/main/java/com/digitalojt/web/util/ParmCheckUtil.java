@@ -7,7 +7,7 @@ import com.digitalojt.web.consts.InvalidCharacter;
 /**
  * パラメーターチェックに関する処理を行うクラス
  * 
- * @author your name
+ * @author Okuma
  *
  */
 public class ParmCheckUtil {
@@ -21,6 +21,6 @@ public class ParmCheckUtil {
 	public static Boolean isParameterInvalid(String val) {
 
 		return Arrays.stream(InvalidCharacter.values())
-                .anyMatch(invalidChar -> val.indexOf(invalidChar.getCharacter()) >= 0);
+				.anyMatch(invalidChar -> val.indexOf(invalidChar.getCharacter()) >= 0);
 	}
 }
