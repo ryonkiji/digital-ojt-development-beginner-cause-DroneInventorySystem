@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+#custom-card-body{
+	width: 70% !important;
+	margin: auto !important;
+}
+#custom-underline{
+	text-decoration: underline !important;
+}
+#custom-text-center{
+	text-align: center !important;
+}
+.custom-text-left{
+	text-align: left !important;
+}
+.custum-btn-new{
+	color: #fff;
+	background-color: #CC0033 !important;
+	position: absolute !important;
+    bottom: 0px !important;
+    right: 0px !important;
+}
+
+.form-label{
+	width: 200px !important;  /* ラベルの固定幅を設定 */
+}
+#custum-form{
+	display: flex !important;
+}

@@ -3,9 +3,9 @@ package com.digitalojt.web.controller;
 /**
  * 抽象コントローラー
  *
- * @author your name
+ * @author Okuma
  *
  */
-public class AbstractController {
+public abstract class AbstractController {
 
 }

@@ -11,7 +11,7 @@ import com.digitalojt.web.entity.CenterInfo;
 /**
  * センター情報テーブルリポジトリー
  *
- * @author your name
+ * @author Okuma
  * 
  */
 @Repository
@@ -31,4 +31,13 @@ public interface CenterInfoRepository extends JpaRepository<CenterInfo, Integer>
 	List<CenterInfo> findByCenterNameAndRegionAndStorageCapacity(
 			String centerName,
 			String region);
+
+	/**
+	 * センターIDに合致する在庫センター情報を取得
+	 * 
+	 * @param centerId
+	 * @return paramで検索した結果
+	 */
+
+	List<CenterInfo> findByCenterId(int centerId);
 }
