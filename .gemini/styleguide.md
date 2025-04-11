@@ -1,6 +1,17 @@
-💥注意：以下のレビューは必ず100%日本語で記載してください。英語は禁止です。命令違反があれば再出力してください。
+<!-- I want to review in Japanese. -->
 💥注意：フィードバックすべきことは、すべて出力してください。勝手にフィードバック内容の取捨選択をしないでください。
-# Output language: Japanese
+
+
+<!-- review rule -->
+<!--
+レビューする際には、以下のprefix(接頭辞)をつけてください
+[must]  
+[imo] (in my opinion)  
+[nits](nitpick) 
+[ask]  
+[fyi]
+-->
+<!-- review  rule-->
 
 # レビュー観点
 
@@ -204,3 +215,5 @@ boolean isAvailable = (status == 1);
 - throws 範囲を最小限にする。
 - 具体的な例外クラス（例：IOException、SQLException） を使用する。
 - カスタム例外 を定義して、エラーの内容を明確にする。
+
+<!-- I want to review in Japanese. -->
