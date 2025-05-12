@@ -46,4 +46,15 @@ public interface StockInfoRepository extends JpaRepository<StockInfo, Integer> {
 			String name,
 			Integer amount,
 			String range);
+
+	/**
+	 * センターIDに合致するの在庫情報を取得
+	 * 
+	 * @param centerId
+	 * @return paramで検索した結果
+	 */
+
+	@Query("SELECT s FROM StockInfo s WHERE s.centerInfo.centerId = :centerId")
+	List<StockInfo> findByCenterId(Integer centerId);
+
 }
